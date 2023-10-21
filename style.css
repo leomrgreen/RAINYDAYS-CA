@@ -371,7 +371,7 @@ footer > .footer-logo img {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  padding: 10px;
+  padding: 0px;
 }
 
 .section5 {
@@ -403,14 +403,45 @@ footer > .footer-logo img {
   padding: 10px;
 }
 
-.section5-text a {
-  text-decoration: none;
+/* ---SHOP-MENS-WOMENS---*/
+.shop-banner {
+  background-image: url(images/bannershopbanner.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+}
+
+.shop-banner-text > h1 {
   color: white;
-  font-size: 25px;
-  background-color: rgba(41, 54, 12, 60%);
-  width: 300px;
-  border-radius: 10px;
-  padding: 5px;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.shop-section1 {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(41, 54, 12, 40%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.shop-section1 img {
+  width: 70%;
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+.shop-section1 p {
+  text-align: center;
+
+  font-weight: 700;
 }
 
 /* MOBILE VIEW */
@@ -477,5 +508,30 @@ footer > .footer-logo img {
 
   p {
     font-size: 8px;
+  }
+  footer > .social-media {
+    display: flex;
+    color: white;
+    font-size: 7px;
+  }
+
+  footer {
+    height: 70px;
+  }
+
+  .social-rainy,
+  .twitter img,
+  .instagram img,
+  .facebook img {
+    display: none;
+  }
+
+  .section2-text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
