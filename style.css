@@ -691,11 +691,16 @@ h3 {
 
 .summary-2 {
   display: flex;
-  justify-content: center;
-  word-spacing: 20px;
+
+  text-align: start;
 }
 
-.summary-img img {
+.order-summary img {
+  width: 30%;
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* MOBILE VIEW */
