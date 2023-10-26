@@ -40,26 +40,39 @@
         </ul>
       </section>
     </header>
-    <main id="checkout">
-      <div class="stage1-status">
-        <img src="images/stage1-checkout.png" alt="" />
+    <main id="shipping">
+      <div class="stage3-status">
+        <img src="images/stage3-status.png" alt="" />
       </div>
-      <div class="order-summary">
-        <div class="summary-1">
-          <h1>ORDER SUMMARY</h1>
-          <p>Evergreen Fleece Jacket 1x</p>
-        </div>
-        <img src="images/group6.png" alt="image of evergreen jacket" />
-        <div class="summary-2">
-          <p>
-            Sub-total - $108.74 <br />Tax - $7.25 <br />Shipping -
-            <span>Free</span> <br />Total - $115.99
-          </p>
-        </div>
-        <div class="proceed-shipping">
-          <a href="shipping.html">Proceed to shipping</a>
+      <div class="payment-container">
+        <h1>ADD CARD DETAILS</h1>
+        <form action="#">
+          <div class="name-card">
+            <label for="name-on-card"></label>
+            <input
+              type="text"
+              id="name-on-card"
+              placeholder="Card Holder Name"
+            />
+            <br />
+            <label for="card-number"></label>
+            <input type="text" id="card-number" placeholder="Card Number" />
+            <br />
+            <label for="expmonth"></label>
+            <input type="text" id="expmonth" placeholder="Exp Month" />
+          </div>
+          <div class="sensitive">
+            <label for="expyear"></label>
+            <input type="text" id="expyear" placeholder="Exp Year" />
+            <label for="cvv"></label>
+            <input type="text" id="cvv" placeholder="CVV" />
+          </div>
+        </form>
+        <div class="place-order">
+          <a href="thx.html">Place Order</a>
         </div>
       </div>
+
       <footer>
         <div class="footer-logo">
           <img src="images/LOGO.RAINYDAYS.png" alt="rainy days logo" />

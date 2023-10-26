@@ -40,24 +40,36 @@
         </ul>
       </section>
     </header>
-    <main id="checkout">
-      <div class="stage1-status">
-        <img src="images/stage1-checkout.png" alt="" />
+    <main id="shipping">
+      <div class="stage2-status">
+        <img src="images/stage2-shipping.png" alt="" />
       </div>
-      <div class="order-summary">
-        <div class="summary-1">
-          <h1>ORDER SUMMARY</h1>
-          <p>Evergreen Fleece Jacket 1x</p>
-        </div>
-        <img src="images/group6.png" alt="image of evergreen jacket" />
-        <div class="summary-2">
-          <p>
-            Sub-total - $108.74 <br />Tax - $7.25 <br />Shipping -
-            <span>Free</span> <br />Total - $115.99
-          </p>
+
+      <div class="details-container">
+        <h1>SHIPPING DETAILS</h1>
+        <div class="shipping-det">
+          <form action="#">
+            <label for="firstname"></label>
+            <input type="text" id="firstname" placeholder="First Name" />
+            <label for="lastname"></label>
+            <input type="text" id="lastname" placeholder="Last Name" />
+            <br />
+            <div class="addlines">
+              <label for="addline1"></label>
+              <input type="text" id="addline1" placeholder="Address line 1" />
+              <br />
+              <label for="addline2"></label>
+              <input type="text" id="addline2" placeholder="Address line 2" />
+            </div>
+            <br />
+            <label for="city-town"></label>
+            <input type="text" id="city-town" placeholder="City / Town" />
+            <label for="zip"></label>
+            <input type="text" id="zip" placeholder="Zip code" />
+          </form>
         </div>
         <div class="proceed-shipping">
-          <a href="shipping.html">Proceed to shipping</a>
+          <a href="payment.html">Proceed to payment</a>
         </div>
       </div>
       <footer>
