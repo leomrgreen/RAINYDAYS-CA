@@ -460,6 +460,11 @@ footer > .footer-logo img {
   transform: translate(117%);
 }
 
+.sale-box {
+  background-color: #bcc0b5;
+  padding: 10px;
+}
+
 .review-box > h2,
 p,
 h3 {
