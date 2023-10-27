@@ -306,6 +306,7 @@ footer > .footer-logo img {
   height: auto;
   margin-top: 7px;
 }
+
 .section2-text {
   color: white;
   text-align: center;
@@ -567,6 +568,8 @@ h3 {
   color: white;
 }
 
+/* ---SHOPSECTION--- */
+
 .product-image {
   display: flex;
   justify-content: center;
@@ -670,6 +673,8 @@ h3 {
   color: white;
 }
 
+/* ---CHECKOUT-SUMMARY--- */
+
 #checkout {
   padding-top: 80px;
 }
@@ -684,6 +689,10 @@ h3 {
   position: relative;
   transform: translate(-50%, -50%);
   max-width: 100%;
+}
+
+.body-back {
+  background-color: #bcc0b5;
 }
 
 .order-summary {
@@ -842,6 +851,8 @@ h3 {
   border-radius: 5px;
 }
 
+/* ---ORDER-CONFIRMATION--- */
+
 #endgame {
   padding-top: 150px;
 }
@@ -965,7 +976,7 @@ h3 {
     color: white;
     text-align: center;
     position: absolute;
-    top: 115%;
+    top: 120%;
     left: 20%;
     transform: translate(-10%, -50%);
   }
