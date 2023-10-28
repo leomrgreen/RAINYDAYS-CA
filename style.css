@@ -1037,7 +1037,7 @@ h3 {
     color: white;
     text-align: center;
     position: absolute;
-    top: 125%;
+    top: 130%;
     left: 20%;
     transform: translate(-10%, -50%);
   }
@@ -1127,5 +1127,14 @@ h3 {
 
   .sale-box img {
     display: none;
+  }
+
+  .message form {
+    height: 100px;
+    padding-top: 30px;
+  }
+
+  .personal form {
+    padding-bottom: 30px;
   }
 }
