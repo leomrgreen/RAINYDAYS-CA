@@ -2,6 +2,7 @@
 
 :root {
   --rainygreen: #29360c;
+  --rainygrey: #bcc0b5;
 }
 body {
   margin: 0;
@@ -56,7 +57,8 @@ body {
 }
 
 .menu > li a:hover {
-  text-shadow: 2px 2px #90be90;
+  color: var(--rainygrey);
+  font-weight: 700;
 }
 
 .menu-button-container {
@@ -331,7 +333,7 @@ footer > .footer-logo img {
 
 .section2 img {
   width: 100%;
-  height: auto;
+  min-height: auto;
   margin-top: 7px;
 }
 
@@ -628,6 +630,7 @@ h3 {
 .product-image img {
   max-width: 70%;
   height: auto;
+  border-radius: 5px;
 }
 
 #product-page {
@@ -670,6 +673,10 @@ h3 {
   border-radius: 5px;
 }
 
+.size-input:hover + .size-label {
+  background-color: var(--rainygrey);
+}
+
 .size-input:checked + .size-label {
   background-color: var(--rainygreen);
   color: white;
@@ -702,7 +709,7 @@ h3 {
 
 .CTA-button a {
   text-decoration: none;
-  background-color: #bcc0b5;
+  background-color: var(--rainygrey);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -742,11 +749,11 @@ h3 {
 }
 
 .body-back {
-  background-color: #bcc0b5;
+  background-color: var(--rainygrey);
 }
 
 .order-summary {
-  background-color: #bcc0b5;
+  background-color: var(--rainygrey);
   margin-bottom: 35px;
 }
 
@@ -815,7 +822,7 @@ h3 {
 }
 
 .details-container {
-  background-color: #bcc0b5;
+  background-color: var(--rainygrey);
   padding: 20px;
   text-align: center;
   display: flex;
@@ -936,6 +943,13 @@ h3 {
   color: white;
   padding: 15px;
   border-radius: 5px;
+}
+
+.order-confirm a:hover {
+  background-color: white;
+  color: var(--rainygreen);
+  border: #29360c 2px solid;
+  font-weight: 700;
 }
 
 .order-confirm p {
@@ -1130,11 +1144,16 @@ h3 {
   }
 
   .message form {
-    height: 100px;
-    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
   }
 
   .personal form {
-    padding-bottom: 30px;
+    display: inline;
+  }
+
+  .contact-container a {
+    top: 80%;
   }
 }
