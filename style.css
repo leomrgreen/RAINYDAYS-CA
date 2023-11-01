@@ -1150,10 +1150,14 @@ h3 {
   }
 
   .personal form {
-    display: inline;
+    margin-top: 50px;
   }
 
   .contact-container a {
-    top: 80%;
+    top: 85%;
+  }
+
+  .banner {
+    height: 100vh;
   }
 }
