@@ -150,7 +150,7 @@ footer > .footer-logo img {
   background-image: url("images/framsidabanner.jpg");
   background-size: cover;
   background-position: center center;
-  height: 90vh;
+  height: 100vh;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
@@ -544,6 +544,15 @@ h3 {
     rgb(42, 63, 46),
     rgb(53, 44, 18)
   );
+  opacity: 90%;
+}
+
+.contact-bg {
+  background-image: url(images/waterfall.avif);
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .personal > form {
@@ -592,7 +601,7 @@ h3 {
   white-space: pre-wrap;
   word-wrap: break-word;
   resize: none;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   border-radius: 5px;
   margin-bottom: -50px;
 }
@@ -615,7 +624,7 @@ h3 {
 
 .contact-container a:hover {
   background-color: var(--rainygreen);
-  border: white solid;
+  border: white 1px solid;
   color: white;
 }
 
@@ -1155,9 +1164,5 @@ h3 {
 
   .contact-container a {
     top: 85%;
-  }
-
-  .banner {
-    height: 100vh;
   }
 }
