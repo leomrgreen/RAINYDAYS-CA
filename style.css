@@ -180,7 +180,7 @@ footer > .footer-logo img {
   border-radius: 10px;
   position: absolute;
   align-self: center;
-  top: 150px;
+  top: 200px;
 }
 
 .text-container-banner a:hover {
@@ -189,13 +189,13 @@ footer > .footer-logo img {
 }
 
 .text-container-banner > h1 {
-  font-size: 30px;
+  font-size: 40px;
   white-space: nowrap;
   margin-bottom: -8px;
 }
 
 .text-container-banner > p {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .shop-men-women {
@@ -240,7 +240,7 @@ footer > .footer-logo img {
   color: white;
   z-index: 1;
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 700;
   white-space: nowrap;
   text-decoration: none;
@@ -262,7 +262,7 @@ footer > .footer-logo img {
   color: white;
   z-index: 1;
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 700;
   white-space: nowrap;
   text-decoration: none;
@@ -294,7 +294,7 @@ footer > .footer-logo img {
   color: white;
   z-index: 1;
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 700;
   white-space: nowrap;
   text-decoration: none;
@@ -882,6 +882,8 @@ h3 {
 
 .pay-bod {
   background-image: url(images/payment-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .payment-container h1 {
   color: white;
@@ -922,6 +924,10 @@ h3 {
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 5px;
+}
+
+.pay-footer {
+  margin-top: 7rem;
 }
 
 /* ---ORDER-CONFIRMATION--- */
@@ -967,7 +973,7 @@ h3 {
 
 .cont-shopp {
   position: relative;
-  top: 30px; /* Adjust the value as needed to move it down */
+  top: 30px;
 }
 
 /* MOBILE VIEW */
@@ -1033,7 +1039,7 @@ h3 {
   }
 
   p {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   h3 {
@@ -1164,5 +1170,15 @@ h3 {
 
   .contact-container a {
     top: 90%;
+  }
+
+  .text-container-banner > a {
+    top: 150px;
+  }
+
+  .men-button a,
+  .women-button a,
+  .new-arrivals-button a {
+    font-size: 25px;
   }
 }
